@@ -1,0 +1,256 @@
+
+/* Smallest possible device (mobile phones 360px and up) */
+@media only screen and (min-width: 360px){
+    .medicare101-container { display: static; }
+    .medicare101-table { display: none; }
+    .medicare101-contents { border-left: 1px solid rgba(0, 99, 160, 0); }
+    .crumbs-main { font-size: 12px; margin: 0 20px; }
+    .medicare101-contents h1 { font-size: 40px; }
+    .flex-item h2 { font-size: 20px; }
+    .flex .flex-item { max-height: 150px; }
+    .flextitle { height: 150px; }
+    .medicare101-contents { font-size: 15px; }
+    .medicare101-contents p { line-height: 30px; }
+    .medicare101-contents ul li { margin: 10px 0px; }
+    .medicare101-contents { padding: 10px !important; }
+}
+
+/* Extra small devices (414px and up) */
+@media only screen and (min-width: 414px) {
+    .medicare101-container { display: static; }
+    .medicare101-table { display: none; }
+    .medicare101-contents { border-left: 1px solid rgba(0, 99, 160, 0); }
+    .crumbs-main { font-size: 12px; margin: 0 20px; }
+    .medicare101-contents h1 { font-size: 40px; }
+    .flex-item h2 { font-size: 20px; }
+    .flex .flex-item { max-height: 150px; }
+    .flextitle { height: 150px; }
+    .medicare101-contents { font-size: 15px; }
+    .medicare101-contents p { line-height: 30px; }
+    .medicare101-contents ul li { margin: 10px 0px; }
+    .medicare101-contents { padding: 10px !important; }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .medicare101-container { display: static; }
+    .medicare101-table { display: none; }
+    .medicare101-contents { border-left: 1px solid rgba(0, 99, 160, 0); }
+    .crumbs-main { font-size: 12px; margin: 0 20px; }
+    .medicare101-contents h1 { font-size: 70px; }
+    .flex-item h2 { font-size: 25px; }
+    .flex .flex-item { max-height: 200px; }
+    .flextitle { height: 200px; }
+    .medicare101-contents { font-size: 18px; }
+    .medicare101-contents p { line-height: 35px; }
+    .medicare101-contents ul li { margin: 15px 0px; }
+    .medicare101-contents { padding: 20px !important; }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .medicare101-container { display: static; }
+    .medicare101-table { display: none; }
+    .medicare101-contents { border-left: 1px solid rgba(0, 99, 160, 0); }
+    .crumbs-main { font-size: 16px; margin: 0 20px; }
+    .medicare101-contents h1 { font-size: 70px; }
+    .flex-item h2 { font-size: 25px; }
+    .flex .flex-item { max-height: 200px; }
+    .flextitle { height: 200px; }
+    .medicare101-contents { font-size: 18px; }
+    .medicare101-contents p { line-height: 35px; }
+    .medicare101-contents ul li { margin: 15px 0px; }
+    .medicare101-contents { padding: 20px !important; }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .medicare101-container { display: static; }
+    .medicare101-table { display: none; }
+    .medicare101-contents { border-left: 1px solid rgba(0, 99, 160, 0); }
+    .crumbs-main { font-size: 16px; margin: auto; }
+    .medicare101-contents h1 { font-size: 70px; }
+    .flex-item h2 { font-size: 35px; }
+    .flex .flex-item { max-height: 200px; }
+    .flextitle { height: 200px; }
+    .medicare101-contents { font-size: 20px; }
+    .medicare101-contents p { line-height: 45px; }
+    .medicare101-contents ul li { margin: 20px 0px; }
+    .medicare101-contents { padding: 30px !important; }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .medicare101-container { display: flex; }
+    .medicare101-table { display: block; }
+    .medicare101-contents { border-left: 1px solid rgba(0, 99, 160, 1); }
+    .crumbs-main { font-size: 16px; margin: auto; }
+    .medicare101-contents h1 { font-size: 70px; }
+    .flex-item h2 { font-size: 35px; }
+    .flex .flex-item { max-height: 200px; }
+    .flextitle { height: 200px; }
+    .medicare101-contents { font-size: 20px; }
+    .medicare101-contents p { line-height: 45px; }
+    .medicare101-contents ul li { margin: 20px 0px; }
+    .medicare101-contents { padding: 30px !important; }
+}
+
+.crumbs-container {
+    width: 100%;
+    position: absolute;
+    top: 105px;
+    left: 0;
+    background-color: white;
+    padding: 15px 0px;
+    box-shadow: 2px 0px 10px grey;
+    z-index: 1;
+}
+
+.crumbs-main {
+    display: block;
+    width: 78%;
+}
+.crumbs-main ul li {
+    list-style: none;
+    display: inline-block;
+}
+.crumbs-main a { color: rgb(0, 99, 160); text-decoration: none; }
+.crumbs-main i {
+    margin: auto 10px;
+    color: rgb(0, 99, 160);
+}
+
+.medicare101-main {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 105px;
+}
+
+.medicare101-container {
+    background-color: white;
+    max-width: 1400px;
+    margin: auto;
+    font-family: Poppins;
+    color: rgb(0, 99, 160);
+}
+
+.medicare101-table {
+    padding: 30px !important;
+}
+
+.medicare101-table {
+    margin-top: 150px;
+    position: relative;
+}
+
+.medicare101-table span{
+    font-family: Poppins-Semibold;
+    font-size: 18px;
+}
+
+.medicare101-table a {
+    text-decoration: none;
+    color: rgb(0, 99, 160);
+}
+
+.medicare101-table ul li{
+    list-style: none;
+    background-color: white;
+    color: rgb(0, 99, 160);
+    padding: 10px;
+    border-radius: 7px;
+    transition: background-color 0.3s ease-in, transform 0.3s ease-in;
+}
+
+.medicare101-table ul li:hover{
+    background-color: rgb(1, 197, 162);
+    color: white !important;
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+}
+
+.medicare101-table hr { margin: 20px 0px; }
+
+.medtable {
+    /*position: fixed;*/
+    max-width: 16%;
+}
+
+.medicare101-contents {
+    margin-top: 70px;
+}
+
+.medicare101-contents img {
+    width: 100%;
+    height: auto;
+}
+
+.medicare101-contents h1 {
+    font-family: Poppins-Extrabold;
+    margin-bottom: 50px;
+}
+
+/*.medicare101-contents h2 { padding: 40px 0px 25px; }*/
+.medicare101-contents p {
+    padding: 15px 0px;
+    text-align: justify;
+}
+.medicare101-contents p span { font-family: Poppins-Bold; }
+.medicare101-contents ul { margin-left: 50px; }
+.medicare101-contents ul li {
+    text-align: justify;
+}
+.medicare101-contents ul li span {
+    font-family: Poppins-Bold;
+}
+
+.fixed {
+    position: fixed;
+    max-width: 270px;
+}
+.absolute {
+
+    position: absolute; 
+    bottom: 300px;
+    max-width: 270px;
+}
+
+hr { margin-top: 40px; }
+
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.med101-art {
+    width: 100% !important;
+    height: auto;
+    filter: drop-shadow(3px 1px 3px grey);
+}
+
+.flex .flex-item { 
+    display: inline-block;
+    width: 50%;
+    overflow: hidden;
+}
+
+.flex-item h2 {
+    text-align: center;
+    color: white;
+    font-family: Poppins-Semibold;
+    padding: 0 20px;
+}
+
+.flextitle {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.medflex1 { background-image: linear-gradient(to left, rgb(168, 224, 99), rgb(86, 171, 47)); }
+.medflex2 { background-image: linear-gradient(to left, rgb(255, 95, 109), rgb(255, 195, 113)); }
+.medflex3 { background-image: linear-gradient(to left, rgb(54, 209, 220), rgb(91, 134, 229)); }
+.medflex4 { background-image: linear-gradient(to left, rgb(6, 190, 182), rgb(72, 177, 191)); }

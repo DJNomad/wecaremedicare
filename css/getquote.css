@@ -1,0 +1,143 @@
+.nextsession-container {
+    padding: 120px 20px 20px 20px;
+    color: rgb(0, 99, 160);
+}
+
+.form-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.form-container input[type=text], .form-container input[type=number], .form-container input[type=tel], .form-container input[type=email], .form-container input[type=date] {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: 2px solid rgb(0, 99, 160);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 12pt;
+    font-family: Poppins;
+    color: rgb(0, 99, 160);
+}
+
+::-webkit-calendar-picker-indicator {
+    color: #0063a0;
+}
+
+.row .col { padding: 10px 10px; }
+
+.quoteform2 {
+    border-top: 2px solid grey;
+    padding: 10px;
+}
+
+.quoteform2 p { margin: 30px 0 0 0; }
+
+.q-options { list-style: none; }
+.q-options li { margin-left: 20px; }
+
+.custom-radio-btn {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.custom-radio-btn input {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+.custom-radio-btn .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    border: 2px solid #0063a0;
+    border-radius: 50%;
+    transform: translateY(2.5px);
+}
+.custom-radio-btn input:checked ~ .checkmark { background-color: white; }
+.custom-radio-btn input:checked ~ .checkmark:after { transform: scale(1, 1); }
+.custom-radio-btn .checkmark:after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0063a0;
+    transform: scale(0, 0);
+    transition: transform 0.1s;
+}
+.custom-radio-btn .radio-label { margin-left: 27px; }
+
+.custom-checkbox { display: flex; }
+.custom-checkbox input:hover, .custom-checkbox label:hover { cursor: pointer; }
+.custom-checkbox label { padding-left: 10px; }
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px !important;
+    height: 18px !important;
+    transform: translateY(2px);
+    outline: none;
+    border: 2px solid #0063a0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="checkbox"]::after {
+    font-family: "Font Awesome 6 Free";
+    content: "\f00c";
+    font-weight: 900;
+    color: white;
+    font-size: 12px;
+    display: block;
+    margin: 0 2px;
+}
+input[type="checkbox"]:checked { background-color: #0063a0; }
+input[type="checkbox"]:checked::after { display: block; }
+
+.submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submit-quote {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background-color: rgb(1, 197, 162);
+    font-family: Questrial;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agreement {
+    border: 6px double grey;
+    padding: 10px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.agreement p {
+    margin: 0;
+    font-size: 13px;
+    text-align: justify;
+    font-style: italic;
+    color: grey;
+}
+
+.error-msg {
+    color: red;
+    padding: 0 10px;
+}
